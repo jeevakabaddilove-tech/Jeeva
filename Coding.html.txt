@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeeva.R | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <h1 class="logo">Jeeva.R</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <div class="intro">
+      <h2>Hello, I am <span>Jeeva.R</span></h2>
+      <h3>Information Technology Student | Web Developer</h3>
+      <p>I completed my schooling in 2024 and I am currently studying Information Technology in college.</p>
+      <button onclick="scrollToSection('contact')">Contact Me</button>
+    </div>
+    <div class="profile-pic">
+      <img src="profile.jpg" alt="Profile Picture">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am pursuing a degree in Information Technology. I am passionate about technology and learning programming.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill">
+      <p>C</p>
+      <div class="progress"><div class="bar" style="width:80%"></div></div>
+    </div>
+    <div class="skill">
+      <p>C++</p>
+      <div class="progress"><div class="bar" style="width:75%"></div></div>
+    </div>
+    <div class="skill">
+      <p>Java</p>
+      <div class="progress"><div class="bar" style="width:70%"></div></div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Services</h2>
+    <div class="service-box">
+      <h3>Web Development</h3>
+      <p>I build and design responsive websites using modern technologies.</p>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Projects coming soon…</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <p>You can download my biodata here:</p>
+    <a href="biodata.pdf" download class="btn">Download Biodata</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Jeeva.R | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
